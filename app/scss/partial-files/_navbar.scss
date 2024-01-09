@@ -60,7 +60,7 @@
             button {
                 border: none;
                 padding: 12px 30px;
-                background-color: var(--yellow);
+                background-color: rgb(var(--yellow));
                 font-size: 15px;
                 border-radius: 4px;
             }
@@ -78,7 +78,7 @@
     }
 
     &__location-text {
-        color: var(--blue);
+        color: rgb(var(--blue));
         text-decoration: underline;
     }
 
