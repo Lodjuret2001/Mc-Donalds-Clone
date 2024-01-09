@@ -1,0 +1,102 @@
+@forward 'colors';
+
+.main {
+
+    &__foodexpert {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 52px;
+            line-height: 10px;
+            margin-top: 70px;
+        }
+
+        img {
+            width: 100%;
+            margin-top: 0px;
+            padding-bottom: 110px;
+        }
+
+        p {
+            font-size: 20px;
+            padding-bottom: 110px;
+        }
+    }
+
+    &__meet-us-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 30px;
+        margin-bottom: 130px;
+
+        &--container {
+
+            img {
+                width: 100%;
+                box-shadow: -10px -10px 1px 1px rgba(var(--yellow), 1);
+            }
+
+            h2 {
+                font-size: 36px;
+            }
+
+            button {
+                margin-top: 30px;
+                padding: 17px 35px;
+                font-size: 17px;
+            }
+        }
+    }
+
+    &__links-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 90px;
+
+        &--container {
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            height: 330px;
+            margin-left: 30px;
+
+            h3 {
+                margin-bottom: 10px;
+            }
+
+            a {
+                margin-top: 7px;
+            }
+        }
+    }
+
+    &__socialmedia-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+
+        &--container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 300px;
+            margin-left: 30px;
+
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+    &__app-links {
+        margin-right: 30px;
+
+        img {
+            width: 150px;
+        }
+    }
+}
