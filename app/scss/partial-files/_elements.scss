@@ -1,3 +1,5 @@
+@forward 'colors';
+
 img {
     width: 100px;
 }
@@ -13,5 +15,16 @@ a {
 }
 
 button {
+    border: none;
+    padding: 12px 30px;
+    background-color: rgb(var(--yellow));
+    font-size: 15px;
+    border-radius: 4px;
     cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
 }
