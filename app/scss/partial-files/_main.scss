@@ -27,7 +27,7 @@
         }
     }
 
-    &__info-grid {
+    &__meet-us-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 30px;
@@ -53,6 +53,55 @@
                 background-color: rgb(var(--yellow));
                 font-size: 17px;
             }
+        }
+    }
+
+    &__links-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 90px;
+
+        &--container {
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            height: 330px;
+            margin-left: 30px;
+
+            h4 {
+                margin-bottom: 10px;
+            }
+
+            a {
+                margin-top: 7px;
+            }
+        }
+    }
+
+    &__socialmedia-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+
+        &--container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 300px;
+            margin-left: 30px;
+
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+    &__app-links {
+        margin-right: 30px;
+
+        img {
+            width: 150px;
         }
     }
 }
